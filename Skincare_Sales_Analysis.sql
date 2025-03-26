@@ -1,3 +1,28 @@
+-- tables used
+-- CREATE TABLE Products (
+
+--     Product_ID INT PRIMARY KEY,
+--     Product_Name VARCHAR(100),
+--     Category VARCHAR(50),
+--     Brand VARCHAR(50),
+--     Price DECIMAL(10,2),
+--     Stock INT,
+--     Rating DECIMAL(3,1)
+-- );
+
+
+-- CREATE TABLE Orders (
+--     Order_ID INT PRIMARY KEY,
+--     Product_ID INT,
+--     Customer_Name VARCHAR(100),
+--     Quantity INT,
+--     Total_Price DECIMAL(10,2),
+--     Order_Date DATE,
+--     Payment_Status VARCHAR(20),
+--     Delivery_Status VARCHAR(20),
+--     FOREIGN KEY (Product_ID) REFERENCES Products(Product_ID)
+-- );
+
 
 -- Find the percentage of orders that were pending (i.e., Delivery_Status ≠ "Delivered on Time").
 
